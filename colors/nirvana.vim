@@ -159,7 +159,7 @@ call s:HL('Boolean',        s:fg)
 call s:HL('Float',          s:fg)
 
 call s:HL('Identifier',     s:fg,    s:none, s:italic)
-call s:HL('Function',       s:fg,    s:none, s:italic)
+call s:HL('Function',       s:green, s:none, s:italic)
 call s:HL('VarId',          s:fg,    s:none, s:italic)
 
 call s:HL('Statement',      s:fg)
