@@ -101,7 +101,7 @@ call s:HL('IncSearch',     s:attn,   s:bg, s:inverse)
 call s:HL('Search',        s:attn,   s:bg, s:underline)
 
 call s:HL('CursorColumn',  s:brown)
-call s:HL('CursorLine',    s:none, s:none, s:bold)
+call s:HL('CursorLine',    s:none)
 
 call s:HL('CursorLineNr',  s:attn)
 call s:HL('LineNr',        s:brown)
