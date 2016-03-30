@@ -176,7 +176,7 @@ call s:HL('Define',         s:none)
 call s:HL('Macro',          s:none)
 call s:HL('PreCondit',      s:none)
 
-call s:HL('Type',           s:none,    s:none,   s:bold)
+call s:HL('Type',           s:none,    s:none,   s:underline)
 call s:HL('StorageClass',   s:none)
 call s:HL('Structure',      s:none,    s:none,   s:bold)
 call s:HL('Typedef',        s:none)
