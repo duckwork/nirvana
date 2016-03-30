@@ -178,7 +178,7 @@ call s:HL('PreCondit',      s:fg)
 
 call s:HL('Type',           s:fg)
 call s:HL('StorageClass',   s:fg)
-call s:HL('Structure',      s:fg)
+call s:HL('Structure',      s:none, s:none, s:underline)
 call s:HL('Typedef',        s:fg)
 
 call s:HL('Special',        s:fg)
@@ -191,3 +191,7 @@ call s:HL('Debug',          s:fg)
 call s:HL('Underlined',     s:fg,    s:bg,   s:underline)
 call s:HL('Error',          s:fg)
 call s:HL('Todo',           s:fg)
+
+" Filetype-specific
+" " Haskell
+hi! link haskellType Type
