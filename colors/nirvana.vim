@@ -195,3 +195,4 @@ call s:HL('Todo',           s:yellow)
 " Filetype-specific
 " " Haskell
 hi! link haskellType Type
+call s:HL('haskellIdentifier', s:attn)
