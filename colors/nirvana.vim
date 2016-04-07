@@ -196,3 +196,5 @@ call s:HL('Todo',           s:yellow)
 " " Haskell
 hi! link haskellType Type
 call s:HL('haskellIdentifier', s:attn, s:none, s:italic)
+" " SH
+call s:HL('shHereDoc', s:none, s:none, s:italic)
