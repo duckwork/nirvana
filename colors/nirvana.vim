@@ -188,6 +188,7 @@ call s:HL('Delimiter',      s:none)
 call s:HL('SpecialComment', s:none)
 call s:HL('Debug',          s:none)
 
+call s:HL('Italic',         s:none,    s:none,   s:italic)
 call s:HL('Underlined',     s:none,    s:none,   s:underline)
 call s:HL('Error',          s:red)
 call s:HL('Todo',           s:yellow)
@@ -197,4 +198,4 @@ call s:HL('Todo',           s:yellow)
 hi! link haskellType Type
 call s:HL('haskellIdentifier', s:attn, s:none, s:italic)
 " " SH
-call s:HL('shHereDoc', s:none, s:none, s:italic)
+hi! link shHereDoc Italic
